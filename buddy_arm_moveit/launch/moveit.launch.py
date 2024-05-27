@@ -17,9 +17,9 @@ def generate_launch_description():
     )
 
     moveit_config = (
-        MoveItConfigsBuilder("robotarm", package_name="robotarm")
+        MoveItConfigsBuilder("buddyarm", package_name="buddy_arm_moveit")
         .robot_description(file_path=os.path.join(
-            get_package_share_directory("robotarm"),
+            get_package_share_directory("buddy_arm_description"),
             "urdf",
             "main.urdf.xacro"
             )
@@ -41,7 +41,7 @@ def generate_launch_description():
 
     # RViz
     rviz_config = os.path.join(
-        get_package_share_directory("robotarm"),
+        get_package_share_directory("buddy_arm_moveit"),
             "config",
             "moveit.rviz",
     )
@@ -63,6 +63,6 @@ def generate_launch_description():
         [
             is_sim_arg,
             move_group_node, 
-            # rviz_node
+            rviz_node
         ]
     )

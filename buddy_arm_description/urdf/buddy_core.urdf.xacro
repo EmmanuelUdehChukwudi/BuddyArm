@@ -19,24 +19,7 @@
   <xacro:property name="base_width" value="0.15"/>
   <xacro:property name="base_height" value="0.055"/>
   <xacro:property name="PI" value="3.142593"/>
-
-
-
-
-
-
-  <material name="blue">
-      <color rgba="0.0 0.0 1.0 1.0"/>
-  </material>
-  <material name="red">
-      <color rgba="1.0 0.0 0.0 1.0"/>
-  </material>
-  <material name="green">
-      <color rgba="0.0 1.0 0.0 1.0"/>
-  </material>
-  <material name="yellow">
-      <color rgba="1.0 1.0 0.0 1.0"/>
-  </material>
+  
   <material name="white">
       <color rgba="1.0 1.0 1.0 1.0"/>
   </material>
@@ -73,7 +56,7 @@
         </geometry>
         <material name="white"/>
       </collision>
-      <xacro:box mass="50" length="${base_length}" width="${base_width}" height="${base_height}" 
+      <xacro:box mass="1.0" length="${base_length}" width="${base_width}" height="${base_height}" 
             xyz="0.0 0.0 ${-base_height/2}" rpy="0.0 0.0 0.0"/>
     </link>
     <link name="world"/>
@@ -250,14 +233,14 @@
         <material name="black"/>
       </visual>
       <collision>
-        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <origin xyz="0.0 0.0 ${-servo_length/2}" rpy="0.0 0.0 0.0"/>
         <geometry>
           <cylinder radius="${servo_radius}" length="${servo_length}"/>
         </geometry>
         <material name="black"/>
       </collision>
       <xacro:cylinder mass="0.069" radius="${servo_radius}" height="${servo_length}"
-            xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            xyz="0.0 0.0 ${-servo_length/2}" rpy="0.0 0.0 0.0"/>
     </link>
 
     <joint name="joint_5" type="revolute">
@@ -277,20 +260,47 @@
         <material name="grey"/>
       </visual>
       <collision>
-        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <origin xyz="${-gs_length/2} 0.0 0.0" rpy="0.0 0.0 0.0"/>
         <geometry>
           <box size="${gs_length} ${gs_width} ${gs_height}"/>
         </geometry>
         <material name="grey"/>
       </collision>
       <xacro:box mass="0.05" length="${gs_length}" width="${gs_width}" height="${gs_height}" 
-            xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+           xyz="${-gs_length/2} 0.0 0.0" rpy="0.0 0.0 0.0"/>
     </link>
     <joint name="dummy3" type="fixed">
       <parent link="link7"/>
       <child link="gripper_support"/>
       <origin xyz="${gs_length} 0.0 ${-servo_length/2}" rpy="0.0 0.0 0.0"/>
     </joint>
+
+    <link name="gripper_right">
+      <visual>
+          <origin rpy="0 0 0" xyz="-0.06 0.0 0.0"/>
+          <geometry>
+              <mesh filename="package://buddy_arm_description/meshes/left_finger.STL" scale="0.001 0.001 0.001"/>
+          </geometry>
+      </visual>
+      <collision>
+        <origin rpy="0 0 0" xyz="-0.06 0.0 0.0"/>
+          <geometry>
+              <mesh filename="package://buddy_arm_description/meshes/left_finger.STL" scale="0.001 0.001 0.001"/>  
+          </geometry>
+      </collision>
+      <xacro:box mass="0.05" length="${gs_length}" width="${gs_width}" height="${gs_height}" 
+            rpy="0 0 0" xyz="-0.06 0.0 0.0"/>
+  </link>
+  
+  <joint name ="joint_6" type="revolute">
+    <parent link="gripper_support"/>
+    <child link = "gripper_right"/>
+    <origin xyz="0.0 0.0 ${-gs_height/2}" rpy="${PI/2} 0.0 ${PI}"/>
+    
+    <axis xyz="0 0 1"/>
+    <limit lower="0.0" upper="${PI/2}" 
+           effort="1000" velocity="10"/>
+  </joint>
 
     <link name="gripper_left">
       <visual>
@@ -306,10 +316,10 @@
           </geometry>
       </collision>
       <xacro:box mass="0.05" length="${gs_length}" width="${gs_width}" height="${gs_height}" 
-            xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+          rpy="0 0 0" xyz="-0.06 ${-gs_height/2} 0.0"/>
   </link>
 
-  <joint name ="joint_6" type="revolute">
+  <joint name ="joint_7" type="revolute">
     <parent link="gripper_support"/>
     <child link = "gripper_left"/>
     <origin xyz="0.0 0.0 ${gs_height/2}" rpy="${PI/2} 0.0 ${PI}"/>
@@ -317,34 +327,16 @@
     <axis xyz="0 0 1"/>
     <limit lower="${-PI / 2}" upper="0.0" 
            effort="1000" velocity="10"/>
+           <mimic joint="joint_6" multiplier="-1"/>
   </joint>
 
-  <link name="gripper_right">
-    <visual>
-        <origin rpy="0 0 0" xyz="-0.06 0.0 0.0"/>
-        <geometry>
-            <mesh filename="package://buddy_arm_description/meshes/left_finger.STL" scale="0.001 0.001 0.001"/>
-        </geometry>
-    </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="-0.06 0.0 0.0"/>
-        <geometry>
-            <mesh filename="package://buddy_arm_description/meshes/left_finger.STL" scale="0.001 0.001 0.001"/>  
-        </geometry>
-    </collision>
-    <xacro:box mass="0.05" length="${gs_length}" width="${gs_width}" height="${gs_height}" 
-            xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
-</link>
+  <!-- my fix for moveit -->
+  <joint name="joint_7_mimic" type="fixed">
+    <parent link="world" />
+    <child link="random" />
+  </joint>
+  <link name="random"/> 
 
-<joint name ="joint_7" type="revolute">
-  <parent link="gripper_support"/>
-  <child link = "gripper_right"/>
-  <origin xyz="0.0 0.0 ${-gs_height/2}" rpy="${PI/2} 0.0 ${PI}"/>
-  
-  <axis xyz="0 0 1"/>
-  <limit lower="0.0" upper="${PI/2}" 
-         effort="1000" velocity="10"/>
-</joint>
     
 
     
