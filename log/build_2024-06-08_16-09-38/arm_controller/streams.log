@@ -1,0 +1,55 @@
+[0.040s] Invoking command in '/home/primerobotics/BuddyArm/build/arm_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/arm_controller -- -j3 -l3
+[0.192s] [ 50%] Built target slider_control
+[0.199s] [ 50%] Built target ament_cmake_python_symlink_arm_controller
+[0.211s] [100%] Built target arm_controller
+[0.995s] running egg_info
+[0.998s] writing arm_controller.egg-info/PKG-INFO
+[1.000s] writing dependency_links to arm_controller.egg-info/dependency_links.txt
+[1.001s] writing top-level names to arm_controller.egg-info/top_level.txt
+[1.008s] reading manifest file 'arm_controller.egg-info/SOURCES.txt'
+[1.010s] writing manifest file 'arm_controller.egg-info/SOURCES.txt'
+[1.102s] [100%] Built target ament_cmake_python_build_arm_controller_egg
+[1.120s] Invoked command in '/home/primerobotics/BuddyArm/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/arm_controller -- -j3 -l3
+[1.180s] Invoking command in '/home/primerobotics/BuddyArm/build/arm_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/arm_controller
+[1.192s] -- Install configuration: ""
+[1.195s] -- Execute custom install script
+[1.197s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/pythonpath.sh
+[1.199s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/pythonpath.dsv
+[1.202s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[1.205s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.208s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.211s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller-0.0.0-py3.10.egg-info/top_level.txt
+[1.214s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller/__init__.py
+[1.214s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller/joint_slider.py
+[1.214s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/lib/arm_controller/slider_control
+[1.214s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/lib/arm_controller/joint_slider.py
+[1.214s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller//arm_controller.xml
+[1.214s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/lib/libarm_controller.so
+[1.214s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/include/arm_controller/arm_interface.hpp
+[1.215s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/include/arm_controller/visibility_control.h
+[1.215s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/config/robotarm_controllers.yaml
+[1.215s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/launch/controller.launch.py
+[1.215s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/launch/joint_slide.launch.py
+[1.223s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/library_path.sh
+[1.224s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/library_path.dsv
+[1.224s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/ament_index/resource_index/package_run_dependencies/arm_controller
+[1.224s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/ament_index/resource_index/parent_prefix_path/arm_controller
+[1.224s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/ament_prefix_path.sh
+[1.224s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/ament_prefix_path.dsv
+[1.225s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/path.sh
+[1.225s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/path.dsv
+[1.225s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/local_setup.bash
+[1.225s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/local_setup.sh
+[1.225s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/local_setup.zsh
+[1.225s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/local_setup.dsv
+[1.226s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/package.dsv
+[1.243s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/ament_index/resource_index/packages/arm_controller
+[1.244s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/arm_controller
+[1.245s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.246s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[1.252s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.253s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig.cmake
+[1.254s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig-version.cmake
+[1.255s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/package.xml
+[1.352s] Listing '/home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller'...
+[1.380s] Invoked command in '/home/primerobotics/BuddyArm/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/arm_controller

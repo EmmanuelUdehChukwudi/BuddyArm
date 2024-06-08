@@ -1,0 +1,2 @@
+Invoking command in '/home/primerobotics/BuddyArm/build/buddy_functionalities': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_functionalities -- -j3 -l3
+Invoked command in '/home/primerobotics/BuddyArm/build/buddy_functionalities' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_functionalities -- -j3 -l3

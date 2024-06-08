@@ -1,0 +1,17 @@
+/home/primerobotics/BuddyArm/install/buddy_functionalities/lib/buddy_functionalities/random_path
+/home/primerobotics/BuddyArm/install/buddy_functionalities/lib/buddy_functionalities/custom_path
+/home/primerobotics/BuddyArm/install/buddy_functionalities/share/ament_index/resource_index/package_run_dependencies/buddy_functionalities
+/home/primerobotics/BuddyArm/install/buddy_functionalities/share/ament_index/resource_index/parent_prefix_path/buddy_functionalities
+/home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/environment/ament_prefix_path.sh
+/home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/environment/ament_prefix_path.dsv
+/home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/environment/path.sh
+/home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/environment/path.dsv
+/home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/local_setup.bash
+/home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/local_setup.sh
+/home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/local_setup.zsh
+/home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/local_setup.dsv
+/home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/package.dsv
+/home/primerobotics/BuddyArm/install/buddy_functionalities/share/ament_index/resource_index/packages/buddy_functionalities
+/home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/cmake/buddy_functionalitiesConfig.cmake
+/home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/cmake/buddy_functionalitiesConfig-version.cmake
+/home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/package.xml

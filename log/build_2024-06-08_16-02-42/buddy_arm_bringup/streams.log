@@ -1,0 +1,23 @@
+[0.048s] Invoking command in '/home/primerobotics/BuddyArm/build/buddy_arm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_arm_bringup -- -j3 -l3
+[0.158s] Invoked command in '/home/primerobotics/BuddyArm/build/buddy_arm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_arm_bringup -- -j3 -l3
+[0.261s] Invoking command in '/home/primerobotics/BuddyArm/build/buddy_arm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_arm_bringup
+[0.281s] -- Install configuration: ""
+[0.292s] -- Execute custom install script
+[0.296s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/launch/hardware.launch.py
+[0.297s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/launch/simulation.launch.py
+[0.298s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/ament_index/resource_index/package_run_dependencies/buddy_arm_bringup
+[0.298s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/ament_index/resource_index/parent_prefix_path/buddy_arm_bringup
+[0.298s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/environment/ament_prefix_path.sh
+[0.299s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/environment/ament_prefix_path.dsv
+[0.299s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/environment/path.sh
+[0.299s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/environment/path.dsv
+[0.300s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/local_setup.bash
+[0.300s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/local_setup.sh
+[0.300s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/local_setup.zsh
+[0.300s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/local_setup.dsv
+[0.300s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/package.dsv
+[0.323s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/ament_index/resource_index/packages/buddy_arm_bringup
+[0.324s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/cmake/buddy_arm_bringupConfig.cmake
+[0.324s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/cmake/buddy_arm_bringupConfig-version.cmake
+[0.325s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/package.xml
+[0.335s] Invoked command in '/home/primerobotics/BuddyArm/build/buddy_arm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_arm_bringup

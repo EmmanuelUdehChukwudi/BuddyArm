@@ -1,0 +1,49 @@
+[0.059s] Invoking command in '/home/primerobotics/BuddyArm/build/buddy_arm_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/primerobotics/BuddyArm/src/buddy_arm_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/primerobotics/BuddyArm/install/buddy_arm_moveit
+[0.222s] -- The C compiler identification is GNU 11.4.0
+[0.383s] -- The CXX compiler identification is GNU 11.4.0
+[0.402s] -- Detecting C compiler ABI info
+[0.560s] -- Detecting C compiler ABI info - done
+[0.591s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.592s] -- Detecting C compile features
+[0.593s] -- Detecting C compile features - done
+[0.603s] -- Detecting CXX compiler ABI info
+[0.795s] -- Detecting CXX compiler ABI info - done
+[0.817s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.818s] -- Detecting CXX compile features
+[0.820s] -- Detecting CXX compile features - done
+[0.825s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.179s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.336s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.549s] -- Configuring done
+[1.556s] -- Generating done
+[1.558s] -- Build files have been written to: /home/primerobotics/BuddyArm/build/buddy_arm_moveit
+[1.568s] Invoked command in '/home/primerobotics/BuddyArm/build/buddy_arm_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/primerobotics/BuddyArm/src/buddy_arm_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/primerobotics/BuddyArm/install/buddy_arm_moveit
+[1.571s] Invoking command in '/home/primerobotics/BuddyArm/build/buddy_arm_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_arm_moveit -- -j3 -l3
+[1.646s] Invoked command in '/home/primerobotics/BuddyArm/build/buddy_arm_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_arm_moveit -- -j3 -l3
+[1.700s] Invoking command in '/home/primerobotics/BuddyArm/build/buddy_arm_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_arm_moveit
+[1.713s] -- Install configuration: ""
+[1.716s] -- Execute custom install script
+[1.721s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/launch/moveit.launch.py
+[1.739s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/config/arm.srdf
+[1.762s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/config/initial_positions.yaml
+[1.789s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/config/joint_limits.yaml
+[1.805s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/config/kinematics.yaml
+[1.818s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/config/moveit.rviz
+[1.834s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/config/moveit_controllers.yaml
+[1.857s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/config/pilz_cartesian_limits.yaml
+[1.880s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/ament_index/resource_index/package_run_dependencies/buddy_arm_moveit
+[1.898s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/ament_index/resource_index/parent_prefix_path/buddy_arm_moveit
+[1.914s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/environment/ament_prefix_path.sh
+[1.930s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/environment/ament_prefix_path.dsv
+[1.954s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/environment/path.sh
+[1.970s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/environment/path.dsv
+[1.987s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/local_setup.bash
+[2.002s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/local_setup.sh
+[2.015s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/local_setup.zsh
+[2.028s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/local_setup.dsv
+[2.048s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/package.dsv
+[2.062s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/ament_index/resource_index/packages/buddy_arm_moveit
+[2.077s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/cmake/buddy_arm_moveitConfig.cmake
+[2.094s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/cmake/buddy_arm_moveitConfig-version.cmake
+[2.111s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/package.xml
+[2.133s] Invoked command in '/home/primerobotics/BuddyArm/build/buddy_arm_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_arm_moveit

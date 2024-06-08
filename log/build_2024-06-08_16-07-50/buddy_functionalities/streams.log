@@ -1,0 +1,51 @@
+[0.049s] Invoking command in '/home/primerobotics/BuddyArm/build/buddy_functionalities': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_functionalities -- -j3 -l3
+[0.140s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.490s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.550s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.696s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.713s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.760s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.826s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.898s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.103s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.112s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.209s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.236s] -- Looking for pthread.h
+[1.515s] -- Looking for pthread.h - found
+[1.519s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.654s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.654s] -- Found Threads: TRUE  
+[2.141s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[2.215s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[4.386s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[4.426s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[4.499s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.642s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.861s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[5.279s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.279s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.748s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[8.018s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[8.769s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[9.804s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[9.851s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[9.851s]   By not providing "Findmoveit_ros_perception.cmake" in CMAKE_MODULE_PATH
+[9.851s]   this project has asked CMake to find a package configuration file provided
+[9.851s]   by "moveit_ros_perception", but CMake did not find one.
+[9.852s] 
+[9.852s]   Could not find a package configuration file provided by
+[9.852s]   "moveit_ros_perception" with any of the following names:
+[9.852s] 
+[9.852s]     moveit_ros_perceptionConfig.cmake
+[9.852s]     moveit_ros_perception-config.cmake
+[9.853s] 
+[9.853s]   Add the installation prefix of "moveit_ros_perception" to CMAKE_PREFIX_PATH
+[9.853s]   or set "moveit_ros_perception_DIR" to a directory containing one of the
+[9.853s]   above files.  If "moveit_ros_perception" provides a separate development
+[9.853s]   package or SDK, be sure it has been installed.
+[9.853s] 
+[9.853s] [0m
+[9.857s] -- Configuring incomplete, errors occurred!
+[9.857s] See also "/home/primerobotics/BuddyArm/build/buddy_functionalities/CMakeFiles/CMakeOutput.log".
+[9.878s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[9.881s] Invoked command in '/home/primerobotics/BuddyArm/build/buddy_functionalities' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_functionalities -- -j3 -l3

@@ -1,0 +1,21 @@
+[0.034s] Invoking command in '/home/primerobotics/BuddyArm/build/buddy_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_firmware -- -j3 -l3
+[0.143s] Invoked command in '/home/primerobotics/BuddyArm/build/buddy_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_firmware -- -j3 -l3
+[0.220s] Invoking command in '/home/primerobotics/BuddyArm/build/buddy_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_firmware
+[0.237s] -- Install configuration: ""
+[0.238s] -- Execute custom install script
+[0.239s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/ament_index/resource_index/package_run_dependencies/buddy_firmware
+[0.239s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/ament_index/resource_index/parent_prefix_path/buddy_firmware
+[0.240s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/environment/ament_prefix_path.sh
+[0.240s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/environment/ament_prefix_path.dsv
+[0.241s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/environment/path.sh
+[0.241s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/environment/path.dsv
+[0.242s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/local_setup.bash
+[0.242s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/local_setup.sh
+[0.243s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/local_setup.zsh
+[0.243s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/local_setup.dsv
+[0.243s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/package.dsv
+[0.268s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/ament_index/resource_index/packages/buddy_firmware
+[0.269s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/cmake/buddy_firmwareConfig.cmake
+[0.269s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/cmake/buddy_firmwareConfig-version.cmake
+[0.269s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/package.xml
+[0.273s] Invoked command in '/home/primerobotics/BuddyArm/build/buddy_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_firmware

@@ -1,0 +1,123 @@
+[0.056s] Invoking command in '/home/primerobotics/BuddyArm/build/arm_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/primerobotics/BuddyArm/src/arm_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/primerobotics/BuddyArm/install/arm_controller
+[0.495s] -- The C compiler identification is GNU 11.4.0
+[0.844s] -- The CXX compiler identification is GNU 11.4.0
+[0.880s] -- Detecting C compiler ABI info
+[1.103s] -- Detecting C compiler ABI info - done
+[1.155s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.156s] -- Detecting C compile features
+[1.158s] -- Detecting C compile features - done
+[1.167s] -- Detecting CXX compiler ABI info
+[1.374s] -- Detecting CXX compiler ABI info - done
+[1.411s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.412s] -- Detecting CXX compile features
+[1.412s] -- Detecting CXX compile features - done
+[1.460s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.881s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.147s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.310s] -- Found hardware_interface: 2.41.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[2.596s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.633s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.676s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.781s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.873s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.395s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.404s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[5.547s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.598s] -- Looking for pthread.h
+[5.774s] -- Looking for pthread.h - found
+[5.775s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.907s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.908s] -- Found Threads: TRUE  
+[6.416s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[6.430s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[6.432s] -- Checking for module 'libserial'
+[6.458s] --   Found libserial, version 1.0.0
+[6.987s] -- Configuring done
+[7.126s] -- Generating done
+[7.132s] -- Build files have been written to: /home/primerobotics/BuddyArm/build/arm_controller
+[7.149s] Invoked command in '/home/primerobotics/BuddyArm/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/primerobotics/BuddyArm/src/arm_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/primerobotics/BuddyArm/install/arm_controller
+[7.151s] Invoking command in '/home/primerobotics/BuddyArm/build/arm_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/arm_controller -- -j3 -l3
+[7.243s] [ 25%] [32mBuilding CXX object CMakeFiles/slider_control.dir/src/slider.cpp.o[0m
+[7.246s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_controller.dir/src/arm_interface.cpp.o[0m
+[7.259s] [ 50%] Built target ament_cmake_python_symlink_arm_controller
+[8.061s] running egg_info
+[8.064s] creating arm_controller.egg-info
+[8.067s] writing arm_controller.egg-info/PKG-INFO
+[8.078s] writing dependency_links to arm_controller.egg-info/dependency_links.txt
+[8.080s] writing top-level names to arm_controller.egg-info/top_level.txt
+[8.082s] writing manifest file 'arm_controller.egg-info/SOURCES.txt'
+[8.086s] reading manifest file 'arm_controller.egg-info/SOURCES.txt'
+[8.093s] writing manifest file 'arm_controller.egg-info/SOURCES.txt'
+[8.155s] [ 50%] Built target ament_cmake_python_build_arm_controller_egg
+[13.572s] [01m[K/home/primerobotics/BuddyArm/src/arm_controller/src/arm_interface.cpp:[m[K In member function ‘[01m[Kvirtual arm_controller::CallbackReturn arm_controller::RobotArmInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[13.572s] [01m[K/home/primerobotics/BuddyArm/src/arm_controller/src/arm_interface.cpp:88:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.573s]    88 | CallbackReturn RobotArmInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[13.573s]       |                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[13.578s] [01m[K/home/primerobotics/BuddyArm/src/arm_controller/src/arm_interface.cpp:[m[K In member function ‘[01m[Kvirtual arm_controller::CallbackReturn arm_controller::RobotArmInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[13.578s] [01m[K/home/primerobotics/BuddyArm/src/arm_controller/src/arm_interface.cpp:112:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.578s]   112 | CallbackReturn RobotArmInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[13.578s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[13.579s] [01m[K/home/primerobotics/BuddyArm/src/arm_controller/src/arm_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arm_controller::RobotArmInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[13.580s] [01m[K/home/primerobotics/BuddyArm/src/arm_controller/src/arm_interface.cpp:134:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.580s]   134 | hardware_interface::return_type RobotArmInterface::read([01;35m[Kconst rclcpp::Time &time[m[K,
+[13.580s]       |                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[13.580s] [01m[K/home/primerobotics/BuddyArm/src/arm_controller/src/arm_interface.cpp:135:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.580s]   135 |                                                           [01;35m[Kconst rclcpp::Duration &period[m[K)
+[13.580s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[13.587s] [01m[K/home/primerobotics/BuddyArm/src/arm_controller/src/arm_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arm_controller::RobotArmInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[13.587s] [01m[K/home/primerobotics/BuddyArm/src/arm_controller/src/arm_interface.cpp:142:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.587s]   142 | hardware_interface::return_type RobotArmInterface::write([01;35m[Kconst rclcpp::Time &time[m[K,
+[13.587s]       |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[13.587s] [01m[K/home/primerobotics/BuddyArm/src/arm_controller/src/arm_interface.cpp:143:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.588s]   143 |                                                            [01;35m[Kconst rclcpp::Duration &period[m[K)
+[13.588s]       |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[16.464s] [ 75%] [32m[1mLinking CXX shared library libarm_controller.so[0m
+[17.086s] [ 75%] Built target arm_controller
+[26.536s] [100%] [32m[1mLinking CXX executable slider_control[0m
+[27.488s] [100%] Built target slider_control
+[27.519s] Invoked command in '/home/primerobotics/BuddyArm/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/arm_controller -- -j3 -l3
+[27.575s] Invoking command in '/home/primerobotics/BuddyArm/build/arm_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/arm_controller
+[27.589s] -- Install configuration: ""
+[27.592s] -- Execute custom install script
+[27.596s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/pythonpath.sh
+[27.615s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/pythonpath.dsv
+[27.640s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[27.655s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[27.672s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[27.687s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller-0.0.0-py3.10.egg-info/top_level.txt
+[27.703s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller/__init__.py
+[27.718s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller/joint_slider.py
+[27.733s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/lib/arm_controller/slider_control
+[27.749s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/lib/arm_controller/joint_slider.py
+[27.765s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller//arm_controller.xml
+[27.781s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/lib/libarm_controller.so
+[27.796s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/include/arm_controller/arm_interface.hpp
+[27.808s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/include/arm_controller/visibility_control.h
+[27.821s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/config/robotarm_controllers.yaml
+[27.833s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/launch/controller.launch.py
+[27.847s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/launch/joint_slide.launch.py
+[27.863s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/library_path.sh
+[27.876s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/library_path.dsv
+[27.890s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/ament_index/resource_index/package_run_dependencies/arm_controller
+[27.903s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/ament_index/resource_index/parent_prefix_path/arm_controller
+[27.915s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/ament_prefix_path.sh
+[27.929s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/ament_prefix_path.dsv
+[27.947s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/path.sh
+[27.962s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/path.dsv
+[27.975s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/local_setup.bash
+[27.988s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/local_setup.sh
+[28.000s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/local_setup.zsh
+[28.017s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/local_setup.dsv
+[28.030s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/package.dsv
+[28.044s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/ament_index/resource_index/packages/arm_controller
+[28.070s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/arm_controller
+[28.091s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.111s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[28.131s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.160s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig.cmake
+[28.178s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig-version.cmake
+[28.194s] -- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/package.xml
+[28.290s] Listing '/home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller'...
+[28.291s] Compiling '/home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller/__init__.py'...
+[28.291s] Compiling '/home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller/joint_slider.py'...
+[28.303s] Invoked command in '/home/primerobotics/BuddyArm/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/arm_controller

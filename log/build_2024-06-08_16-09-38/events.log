@@ -1,0 +1,597 @@
+[0.000000] (-) TimerEvent: {}
+[0.002733] (arm_controller) JobQueued: {'identifier': 'arm_controller', 'dependencies': OrderedDict()}
+[0.002823] (buddy_arm_bringup) JobQueued: {'identifier': 'buddy_arm_bringup', 'dependencies': OrderedDict()}
+[0.002869] (buddy_arm_description) JobQueued: {'identifier': 'buddy_arm_description', 'dependencies': OrderedDict()}
+[0.002905] (buddy_arm_moveit) JobQueued: {'identifier': 'buddy_arm_moveit', 'dependencies': OrderedDict()}
+[0.002939] (buddy_firmware) JobQueued: {'identifier': 'buddy_firmware', 'dependencies': OrderedDict()}
+[0.002994] (buddy_functionalities) JobQueued: {'identifier': 'buddy_functionalities', 'dependencies': OrderedDict()}
+[0.003033] (arm_controller) JobStarted: {'identifier': 'arm_controller'}
+[0.014176] (buddy_arm_bringup) JobStarted: {'identifier': 'buddy_arm_bringup'}
+[0.025004] (buddy_arm_description) JobStarted: {'identifier': 'buddy_arm_description'}
+[0.037322] (arm_controller) JobProgress: {'identifier': 'arm_controller', 'progress': 'cmake'}
+[0.042270] (arm_controller) JobProgress: {'identifier': 'arm_controller', 'progress': 'build'}
+[0.042397] (arm_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/primerobotics/BuddyArm/build/arm_controller', '--', '-j3', '-l3'], 'cwd': '/home/primerobotics/BuddyArm/build/arm_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'primerobotics'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/primerobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'primerobotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'primerobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/primerobotics:@/tmp/.ICE-unix/937,unix/primerobotics:/tmp/.ICE-unix/937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ad29ebf_3d02_4aa0_b963_85ea92c4b2bc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D4UDP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.290'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/primerobotics/BuddyArm/build/arm_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.045070] (buddy_arm_bringup) JobProgress: {'identifier': 'buddy_arm_bringup', 'progress': 'cmake'}
+[0.045895] (buddy_arm_bringup) JobProgress: {'identifier': 'buddy_arm_bringup', 'progress': 'build'}
+[0.052582] (buddy_arm_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/primerobotics/BuddyArm/build/buddy_arm_bringup', '--', '-j3', '-l3'], 'cwd': '/home/primerobotics/BuddyArm/build/buddy_arm_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'primerobotics'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/primerobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'primerobotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'primerobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/primerobotics:@/tmp/.ICE-unix/937,unix/primerobotics:/tmp/.ICE-unix/937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ad29ebf_3d02_4aa0_b963_85ea92c4b2bc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D4UDP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.290'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/primerobotics/BuddyArm/build/buddy_arm_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.062314] (buddy_arm_description) JobProgress: {'identifier': 'buddy_arm_description', 'progress': 'cmake'}
+[0.063813] (buddy_arm_description) JobProgress: {'identifier': 'buddy_arm_description', 'progress': 'build'}
+[0.067921] (buddy_arm_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/primerobotics/BuddyArm/build/buddy_arm_description', '--', '-j3', '-l3'], 'cwd': '/home/primerobotics/BuddyArm/build/buddy_arm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'primerobotics'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/primerobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'primerobotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'primerobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/primerobotics:@/tmp/.ICE-unix/937,unix/primerobotics:/tmp/.ICE-unix/937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ad29ebf_3d02_4aa0_b963_85ea92c4b2bc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D4UDP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.290'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/primerobotics/BuddyArm/build/buddy_arm_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.101085] (-) TimerEvent: {}
+[0.150172] (buddy_arm_bringup) CommandEnded: {'returncode': 0}
+[0.155517] (buddy_arm_description) CommandEnded: {'returncode': 0}
+[0.195312] (arm_controller) StdoutLine: {'line': b'[ 50%] Built target slider_control\n'}
+[0.201236] (-) TimerEvent: {}
+[0.201805] (arm_controller) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_symlink_arm_controller\n'}
+[0.213935] (arm_controller) StdoutLine: {'line': b'[100%] Built target arm_controller\n'}
+[0.226708] (buddy_arm_description) JobProgress: {'identifier': 'buddy_arm_description', 'progress': 'install'}
+[0.245179] (buddy_arm_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/primerobotics/BuddyArm/build/buddy_arm_description'], 'cwd': '/home/primerobotics/BuddyArm/build/buddy_arm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'primerobotics'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/primerobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'primerobotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'primerobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/primerobotics:@/tmp/.ICE-unix/937,unix/primerobotics:/tmp/.ICE-unix/937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ad29ebf_3d02_4aa0_b963_85ea92c4b2bc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D4UDP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.290'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/primerobotics/BuddyArm/build/buddy_arm_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.249445] (buddy_arm_bringup) JobProgress: {'identifier': 'buddy_arm_bringup', 'progress': 'install'}
+[0.249563] (buddy_arm_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/primerobotics/BuddyArm/build/buddy_arm_bringup'], 'cwd': '/home/primerobotics/BuddyArm/build/buddy_arm_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'primerobotics'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/primerobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'primerobotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'primerobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/primerobotics:@/tmp/.ICE-unix/937,unix/primerobotics:/tmp/.ICE-unix/937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ad29ebf_3d02_4aa0_b963_85ea92c4b2bc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D4UDP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.290'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/primerobotics/BuddyArm/build/buddy_arm_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.260235] (buddy_arm_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.261957] (buddy_arm_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.263682] (buddy_arm_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.265005] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/launch/display.launch.xml\n'}
+[0.266432] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/launch/gazebo.launch.py\n'}
+[0.267587] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/urdf/buddy_core.urdf.xacro\n'}
+[0.268268] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/urdf/buddy_gazebo.urdf.xacro\n'}
+[0.269005] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/urdf/buddy_inertia.urdf.xacro\n'}
+[0.269768] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/urdf/buddy_ros2_control.urdf.xacro\n'}
+[0.270735] (buddy_arm_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.271307] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/urdf/main.urdf.xacro\n'}
+[0.271716] (buddy_arm_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/launch/hardware.launch.py\n'}
+[0.272044] (buddy_arm_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/launch/simulation.launch.py\n'}
+[0.272386] (buddy_arm_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/ament_index/resource_index/package_run_dependencies/buddy_arm_bringup\n'}
+[0.272859] (buddy_arm_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/ament_index/resource_index/parent_prefix_path/buddy_arm_bringup\n'}
+[0.273363] (buddy_arm_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/environment/ament_prefix_path.sh\n'}
+[0.273738] (buddy_arm_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/environment/ament_prefix_path.dsv\n'}
+[0.274219] (buddy_arm_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/environment/path.sh\n'}
+[0.274919] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/meshes/left_finger.STL\n'}
+[0.275568] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/meshes/right_finger.STL\n'}
+[0.276565] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/ament_index/resource_index/package_run_dependencies/buddy_arm_description\n'}
+[0.277184] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/ament_index/resource_index/parent_prefix_path/buddy_arm_description\n'}
+[0.277803] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/environment/ament_prefix_path.sh\n'}
+[0.278473] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/environment/ament_prefix_path.dsv\n'}
+[0.279082] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/environment/path.sh\n'}
+[0.279698] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/environment/path.dsv\n'}
+[0.280288] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/local_setup.bash\n'}
+[0.280848] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/local_setup.sh\n'}
+[0.281666] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/local_setup.zsh\n'}
+[0.282416] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/local_setup.dsv\n'}
+[0.283044] (buddy_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/package.dsv\n'}
+[0.290662] (buddy_arm_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/environment/path.dsv\n'}
+[0.291097] (buddy_arm_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/local_setup.bash\n'}
+[0.291421] (buddy_arm_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/local_setup.sh\n'}
+[0.291712] (buddy_arm_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/local_setup.zsh\n'}
+[0.292162] (buddy_arm_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/local_setup.dsv\n'}
+[0.292384] (buddy_arm_bringup) StdoutLine: {'line': b'-- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/package.dsv\n'}
+[0.301392] (-) TimerEvent: {}
+[0.309127] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/ament_index/resource_index/packages/buddy_arm_description\n'}
+[0.310064] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/cmake/buddy_arm_descriptionConfig.cmake\n'}
+[0.311109] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/cmake/buddy_arm_descriptionConfig-version.cmake\n'}
+[0.311948] (buddy_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/package.xml\n'}
+[0.315515] (buddy_arm_description) CommandEnded: {'returncode': 0}
+[0.321943] (buddy_arm_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/ament_index/resource_index/packages/buddy_arm_bringup\n'}
+[0.322398] (buddy_arm_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/cmake/buddy_arm_bringupConfig.cmake\n'}
+[0.322865] (buddy_arm_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/cmake/buddy_arm_bringupConfig-version.cmake\n'}
+[0.323444] (buddy_arm_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/package.xml\n'}
+[0.357119] (buddy_arm_bringup) CommandEnded: {'returncode': 0}
+[0.401571] (-) TimerEvent: {}
+[0.453416] (buddy_arm_bringup) JobEnded: {'identifier': 'buddy_arm_bringup', 'rc': 0}
+[0.456133] (buddy_arm_moveit) JobStarted: {'identifier': 'buddy_arm_moveit'}
+[0.480153] (buddy_arm_description) JobEnded: {'identifier': 'buddy_arm_description', 'rc': 0}
+[0.484663] (buddy_firmware) JobStarted: {'identifier': 'buddy_firmware'}
+[0.490070] (buddy_arm_moveit) JobProgress: {'identifier': 'buddy_arm_moveit', 'progress': 'cmake'}
+[0.497453] (buddy_arm_moveit) JobProgress: {'identifier': 'buddy_arm_moveit', 'progress': 'build'}
+[0.497553] (buddy_arm_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/primerobotics/BuddyArm/build/buddy_arm_moveit', '--', '-j3', '-l3'], 'cwd': '/home/primerobotics/BuddyArm/build/buddy_arm_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'primerobotics'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/primerobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'primerobotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'primerobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/primerobotics:@/tmp/.ICE-unix/937,unix/primerobotics:/tmp/.ICE-unix/937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ad29ebf_3d02_4aa0_b963_85ea92c4b2bc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D4UDP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.290'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/primerobotics/BuddyArm/build/buddy_arm_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.502773] (-) TimerEvent: {}
+[0.514757] (buddy_firmware) JobProgress: {'identifier': 'buddy_firmware', 'progress': 'cmake'}
+[0.515829] (buddy_firmware) JobProgress: {'identifier': 'buddy_firmware', 'progress': 'build'}
+[0.518164] (buddy_firmware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/primerobotics/BuddyArm/build/buddy_firmware', '--', '-j3', '-l3'], 'cwd': '/home/primerobotics/BuddyArm/build/buddy_firmware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'primerobotics'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/primerobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'primerobotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'primerobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/primerobotics:@/tmp/.ICE-unix/937,unix/primerobotics:/tmp/.ICE-unix/937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ad29ebf_3d02_4aa0_b963_85ea92c4b2bc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D4UDP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.290'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/primerobotics/BuddyArm/build/buddy_firmware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.574755] (buddy_arm_moveit) CommandEnded: {'returncode': 0}
+[0.601853] (buddy_firmware) CommandEnded: {'returncode': 0}
+[0.603181] (-) TimerEvent: {}
+[0.620898] (buddy_arm_moveit) JobProgress: {'identifier': 'buddy_arm_moveit', 'progress': 'install'}
+[0.622190] (buddy_arm_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/primerobotics/BuddyArm/build/buddy_arm_moveit'], 'cwd': '/home/primerobotics/BuddyArm/build/buddy_arm_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'primerobotics'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/primerobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'primerobotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'primerobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/primerobotics:@/tmp/.ICE-unix/937,unix/primerobotics:/tmp/.ICE-unix/937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ad29ebf_3d02_4aa0_b963_85ea92c4b2bc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D4UDP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.290'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/primerobotics/BuddyArm/build/buddy_arm_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.643959] (buddy_arm_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.657946] (buddy_arm_moveit) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.661467] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/launch/moveit.launch.py\n'}
+[0.661685] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/config/arm.srdf\n'}
+[0.661888] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/config/initial_positions.yaml\n'}
+[0.662015] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/config/joint_limits.yaml\n'}
+[0.662231] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/config/kinematics.yaml\n'}
+[0.662362] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/config/moveit.rviz\n'}
+[0.662477] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/config/moveit_controllers.yaml\n'}
+[0.662591] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/config/pilz_cartesian_limits.yaml\n'}
+[0.663833] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/ament_index/resource_index/package_run_dependencies/buddy_arm_moveit\n'}
+[0.664028] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/ament_index/resource_index/parent_prefix_path/buddy_arm_moveit\n'}
+[0.664155] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/environment/ament_prefix_path.sh\n'}
+[0.664394] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/environment/ament_prefix_path.dsv\n'}
+[0.664966] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/environment/path.sh\n'}
+[0.665760] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/environment/path.dsv\n'}
+[0.665984] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/local_setup.bash\n'}
+[0.666252] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/local_setup.sh\n'}
+[0.672984] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/local_setup.zsh\n'}
+[0.673303] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/local_setup.dsv\n'}
+[0.673504] (buddy_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/package.dsv\n'}
+[0.678668] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/ament_index/resource_index/packages/buddy_arm_moveit\n'}
+[0.678983] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/cmake/buddy_arm_moveitConfig.cmake\n'}
+[0.679427] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/cmake/buddy_arm_moveitConfig-version.cmake\n'}
+[0.679627] (buddy_arm_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/package.xml\n'}
+[0.685850] (buddy_arm_moveit) CommandEnded: {'returncode': 0}
+[0.704293] (-) TimerEvent: {}
+[0.710169] (buddy_firmware) JobProgress: {'identifier': 'buddy_firmware', 'progress': 'install'}
+[0.711688] (buddy_firmware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/primerobotics/BuddyArm/build/buddy_firmware'], 'cwd': '/home/primerobotics/BuddyArm/build/buddy_firmware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'primerobotics'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/primerobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'primerobotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'primerobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/primerobotics:@/tmp/.ICE-unix/937,unix/primerobotics:/tmp/.ICE-unix/937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ad29ebf_3d02_4aa0_b963_85ea92c4b2bc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D4UDP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.290'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/primerobotics/BuddyArm/build/buddy_firmware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.727346] (buddy_firmware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.729701] (buddy_firmware) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.731979] (buddy_firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/ament_index/resource_index/package_run_dependencies/buddy_firmware\n'}
+[0.734730] (buddy_firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/ament_index/resource_index/parent_prefix_path/buddy_firmware\n'}
+[0.736528] (buddy_firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/environment/ament_prefix_path.sh\n'}
+[0.738459] (buddy_firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/environment/ament_prefix_path.dsv\n'}
+[0.745640] (buddy_firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/environment/path.sh\n'}
+[0.746432] (buddy_firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/environment/path.dsv\n'}
+[0.746730] (buddy_firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/local_setup.bash\n'}
+[0.746921] (buddy_firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/local_setup.sh\n'}
+[0.751865] (buddy_firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/local_setup.zsh\n'}
+[0.753769] (buddy_firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/local_setup.dsv\n'}
+[0.762029] (buddy_firmware) StdoutLine: {'line': b'-- Symlinking: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/package.dsv\n'}
+[0.778338] (buddy_firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/ament_index/resource_index/packages/buddy_firmware\n'}
+[0.778637] (buddy_firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/cmake/buddy_firmwareConfig.cmake\n'}
+[0.778805] (buddy_firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/cmake/buddy_firmwareConfig-version.cmake\n'}
+[0.779003] (buddy_firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/package.xml\n'}
+[0.782295] (buddy_arm_moveit) JobEnded: {'identifier': 'buddy_arm_moveit', 'rc': 0}
+[0.783534] (buddy_functionalities) JobStarted: {'identifier': 'buddy_functionalities'}
+[0.790934] (buddy_firmware) CommandEnded: {'returncode': 0}
+[0.804490] (-) TimerEvent: {}
+[0.840438] (buddy_functionalities) JobProgress: {'identifier': 'buddy_functionalities', 'progress': 'cmake'}
+[0.843501] (buddy_functionalities) JobProgress: {'identifier': 'buddy_functionalities', 'progress': 'build'}
+[0.845448] (buddy_functionalities) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/primerobotics/BuddyArm/build/buddy_functionalities', '--', '-j3', '-l3'], 'cwd': '/home/primerobotics/BuddyArm/build/buddy_functionalities', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'primerobotics'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/primerobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'primerobotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'primerobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/primerobotics:@/tmp/.ICE-unix/937,unix/primerobotics:/tmp/.ICE-unix/937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ad29ebf_3d02_4aa0_b963_85ea92c4b2bc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D4UDP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.290'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/primerobotics/BuddyArm/build/buddy_functionalities'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.897772] (buddy_firmware) JobEnded: {'identifier': 'buddy_firmware', 'rc': 0}
+[0.904591] (-) TimerEvent: {}
+[0.906417] (buddy_functionalities) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.997776] (arm_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.000868] (arm_controller) StdoutLine: {'line': b'writing arm_controller.egg-info/PKG-INFO\n'}
+[1.001986] (arm_controller) StdoutLine: {'line': b'writing dependency_links to arm_controller.egg-info/dependency_links.txt\n'}
+[1.003663] (arm_controller) StdoutLine: {'line': b'writing top-level names to arm_controller.egg-info/top_level.txt\n'}
+[1.004735] (-) TimerEvent: {}
+[1.010736] (arm_controller) StdoutLine: {'line': b"reading manifest file 'arm_controller.egg-info/SOURCES.txt'\n"}
+[1.013052] (arm_controller) StdoutLine: {'line': b"writing manifest file 'arm_controller.egg-info/SOURCES.txt'\n"}
+[1.104137] (arm_controller) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_arm_controller_egg\n'}
+[1.106221] (-) TimerEvent: {}
+[1.121878] (arm_controller) CommandEnded: {'returncode': 0}
+[1.179875] (arm_controller) JobProgress: {'identifier': 'arm_controller', 'progress': 'install'}
+[1.181503] (arm_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/primerobotics/BuddyArm/build/arm_controller'], 'cwd': '/home/primerobotics/BuddyArm/build/arm_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'primerobotics'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/primerobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'primerobotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'primerobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/primerobotics:@/tmp/.ICE-unix/937,unix/primerobotics:/tmp/.ICE-unix/937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ad29ebf_3d02_4aa0_b963_85ea92c4b2bc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D4UDP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.290'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/primerobotics/BuddyArm/build/arm_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.193827] (arm_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.196826] (arm_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.199080] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/pythonpath.sh\n'}
+[1.201200] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/pythonpath.dsv\n'}
+[1.203852] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.205861] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.207910] (-) TimerEvent: {}
+[1.209017] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.211803] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.214523] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller/__init__.py\n'}
+[1.216708] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller/joint_slider.py\n'}
+[1.216861] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/lib/arm_controller/slider_control\n'}
+[1.217046] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/lib/arm_controller/joint_slider.py\n'}
+[1.217196] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller//arm_controller.xml\n'}
+[1.217317] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/lib/libarm_controller.so\n'}
+[1.217433] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/include/arm_controller/arm_interface.hpp\n'}
+[1.217548] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/include/arm_controller/visibility_control.h\n'}
+[1.217662] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/config/robotarm_controllers.yaml\n'}
+[1.217778] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/launch/controller.launch.py\n'}
+[1.217892] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/launch/joint_slide.launch.py\n'}
+[1.218008] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/library_path.sh\n'}
+[1.226539] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/library_path.dsv\n'}
+[1.226756] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/ament_index/resource_index/package_run_dependencies/arm_controller\n'}
+[1.227031] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/ament_index/resource_index/parent_prefix_path/arm_controller\n'}
+[1.227209] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/ament_prefix_path.sh\n'}
+[1.227367] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/ament_prefix_path.dsv\n'}
+[1.227514] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/path.sh\n'}
+[1.227664] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/environment/path.dsv\n'}
+[1.227817] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/local_setup.bash\n'}
+[1.228033] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/local_setup.sh\n'}
+[1.228182] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/local_setup.zsh\n'}
+[1.228358] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/local_setup.dsv\n'}
+[1.228504] (arm_controller) StdoutLine: {'line': b'-- Symlinking: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/package.dsv\n'}
+[1.240254] (buddy_functionalities) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.246115] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/ament_index/resource_index/packages/arm_controller\n'}
+[1.247011] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/arm_controller\n'}
+[1.247802] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.249136] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.254856] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.255714] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig.cmake\n'}
+[1.256704] (buddy_functionalities) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.256976] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig-version.cmake\n'}
+[1.257949] (arm_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/package.xml\n'}
+[1.308117] (-) TimerEvent: {}
+[1.342251] (buddy_functionalities) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.354636] (arm_controller) StdoutLine: {'line': b"Listing '/home/primerobotics/BuddyArm/install/arm_controller/local/lib/python3.10/dist-packages/arm_controller'...\n"}
+[1.357117] (buddy_functionalities) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.382897] (arm_controller) CommandEnded: {'returncode': 0}
+[1.386567] (buddy_functionalities) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.408318] (-) TimerEvent: {}
+[1.454231] (buddy_functionalities) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.508459] (-) TimerEvent: {}
+[1.529325] (buddy_functionalities) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.583918] (arm_controller) JobEnded: {'identifier': 'arm_controller', 'rc': 0}
+[1.608620] (-) TimerEvent: {}
+[1.709059] (-) TimerEvent: {}
+[1.716668] (buddy_functionalities) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.719807] (buddy_functionalities) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.796718] (buddy_functionalities) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.809674] (-) TimerEvent: {}
+[1.910556] (-) TimerEvent: {}
+[2.011062] (-) TimerEvent: {}
+[2.111435] (-) TimerEvent: {}
+[2.210525] (buddy_functionalities) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[2.211669] (-) TimerEvent: {}
+[2.232804] (buddy_functionalities) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[2.311828] (-) TimerEvent: {}
+[2.412209] (-) TimerEvent: {}
+[2.512605] (-) TimerEvent: {}
+[2.612979] (-) TimerEvent: {}
+[2.713350] (-) TimerEvent: {}
+[2.813686] (-) TimerEvent: {}
+[2.914214] (-) TimerEvent: {}
+[3.015078] (-) TimerEvent: {}
+[3.115947] (-) TimerEvent: {}
+[3.216269] (-) TimerEvent: {}
+[3.316679] (-) TimerEvent: {}
+[3.417099] (-) TimerEvent: {}
+[3.517454] (-) TimerEvent: {}
+[3.617930] (-) TimerEvent: {}
+[3.718362] (-) TimerEvent: {}
+[3.818729] (-) TimerEvent: {}
+[3.919059] (-) TimerEvent: {}
+[4.019499] (-) TimerEvent: {}
+[4.119871] (-) TimerEvent: {}
+[4.220234] (-) TimerEvent: {}
+[4.294731] (buddy_functionalities) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[4.313876] (buddy_functionalities) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[4.321458] (-) TimerEvent: {}
+[4.346791] (buddy_functionalities) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[4.421610] (-) TimerEvent: {}
+[4.456090] (buddy_functionalities) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[4.522218] (-) TimerEvent: {}
+[4.535432] (buddy_functionalities) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[4.622656] (-) TimerEvent: {}
+[4.723054] (-) TimerEvent: {}
+[4.823480] (-) TimerEvent: {}
+[4.917578] (buddy_functionalities) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.924624] (-) TimerEvent: {}
+[5.025067] (-) TimerEvent: {}
+[5.125518] (-) TimerEvent: {}
+[5.225988] (-) TimerEvent: {}
+[5.326530] (-) TimerEvent: {}
+[5.426926] (-) TimerEvent: {}
+[5.527951] (-) TimerEvent: {}
+[5.628452] (-) TimerEvent: {}
+[5.728860] (-) TimerEvent: {}
+[5.829225] (-) TimerEvent: {}
+[5.929656] (-) TimerEvent: {}
+[6.030018] (-) TimerEvent: {}
+[6.131037] (-) TimerEvent: {}
+[6.173631] (buddy_functionalities) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[6.231165] (-) TimerEvent: {}
+[6.331536] (-) TimerEvent: {}
+[6.432476] (-) TimerEvent: {}
+[6.532946] (-) TimerEvent: {}
+[6.633306] (-) TimerEvent: {}
+[6.734846] (-) TimerEvent: {}
+[6.835245] (-) TimerEvent: {}
+[6.935889] (-) TimerEvent: {}
+[7.036297] (-) TimerEvent: {}
+[7.136724] (-) TimerEvent: {}
+[7.237125] (-) TimerEvent: {}
+[7.338422] (-) TimerEvent: {}
+[7.425059] (buddy_functionalities) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[7.438562] (-) TimerEvent: {}
+[7.539220] (-) TimerEvent: {}
+[7.639661] (-) TimerEvent: {}
+[7.740086] (-) TimerEvent: {}
+[7.840576] (-) TimerEvent: {}
+[7.941107] (-) TimerEvent: {}
+[8.013282] (buddy_functionalities) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[8.041308] (-) TimerEvent: {}
+[8.142213] (-) TimerEvent: {}
+[8.242756] (-) TimerEvent: {}
+[8.343245] (-) TimerEvent: {}
+[8.443738] (-) TimerEvent: {}
+[8.544307] (-) TimerEvent: {}
+[8.644690] (-) TimerEvent: {}
+[8.745498] (-) TimerEvent: {}
+[8.845963] (-) TimerEvent: {}
+[8.946444] (-) TimerEvent: {}
+[9.011398] (buddy_functionalities) StdoutLine: {'line': b'-- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)\n'}
+[9.042325] (buddy_functionalities) StdoutLine: {'line': b'-- Found moveit_ros_perception: 2.5.5 (/opt/ros/humble/share/moveit_ros_perception/cmake)\n'}
+[9.046605] (-) TimerEvent: {}
+[9.049795] (buddy_functionalities) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread \n'}
+[9.147439] (-) TimerEvent: {}
+[9.247913] (-) TimerEvent: {}
+[9.348408] (-) TimerEvent: {}
+[9.448867] (-) TimerEvent: {}
+[9.549245] (-) TimerEvent: {}
+[9.649621] (-) TimerEvent: {}
+[9.750433] (-) TimerEvent: {}
+[9.810504] (buddy_functionalities) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):\n'}
+[9.810822] (buddy_functionalities) StderrLine: {'line': b'  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when\n'}
+[9.810994] (buddy_functionalities) StderrLine: {'line': b'  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the\n'}
+[9.811177] (buddy_functionalities) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[9.811346] (buddy_functionalities) StderrLine: {'line': b'\n'}
+[9.811496] (buddy_functionalities) StderrLine: {'line': b'  FindOpenGL found both a legacy GL library:\n'}
+[9.811654] (buddy_functionalities) StderrLine: {'line': b'\n'}
+[9.811810] (buddy_functionalities) StderrLine: {'line': b'    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so\n'}
+[9.811969] (buddy_functionalities) StderrLine: {'line': b'\n'}
+[9.812152] (buddy_functionalities) StderrLine: {'line': b'  and GLVND libraries for OpenGL and GLX:\n'}
+[9.812323] (buddy_functionalities) StderrLine: {'line': b'\n'}
+[9.812480] (buddy_functionalities) StderrLine: {'line': b'    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so\n'}
+[9.812761] (buddy_functionalities) StderrLine: {'line': b'    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so\n'}
+[9.812922] (buddy_functionalities) StderrLine: {'line': b'\n'}
+[9.813078] (buddy_functionalities) StderrLine: {'line': b'  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for\n'}
+[9.813268] (buddy_functionalities) StderrLine: {'line': b'  compatibility with CMake 3.10 and below the legacy GL library will be used.\n'}
+[9.813450] (buddy_functionalities) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.813636] (buddy_functionalities) StderrLine: {'line': b'  CMakeLists.txt:15 (find_package)\n'}
+[9.813831] (buddy_functionalities) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[9.813955] (buddy_functionalities) StderrLine: {'line': b'\x1b[0m\n'}
+[9.814769] (buddy_functionalities) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[9.823176] (buddy_functionalities) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[9.824820] (buddy_functionalities) StdoutLine: {'line': b"-- Checking for module 'glut'\n"}
+[9.828735] (buddy_functionalities) StdoutLine: {'line': b"--   No package 'glut' found\n"}
+[9.837106] (buddy_functionalities) StdoutLine: {'line': b'-- Found GLUT: /usr/lib/x86_64-linux-gnu/libglut.so  \n'}
+[9.850537] (-) TimerEvent: {}
+[9.950947] (-) TimerEvent: {}
+[10.004896] (buddy_functionalities) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.051336] (-) TimerEvent: {}
+[10.152082] (-) TimerEvent: {}
+[10.156736] (buddy_functionalities) StdoutLine: {'line': b'-- Generating done\n'}
+[10.161404] (buddy_functionalities) StdoutLine: {'line': b'-- Build files have been written to: /home/primerobotics/BuddyArm/build/buddy_functionalities\n'}
+[10.230366] (buddy_functionalities) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_path.dir/src/custom_path.cpp.o\x1b[0m\n'}
+[10.231763] (buddy_functionalities) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/random_path.dir/src/random_path.cpp.o\x1b[0m\n'}
+[10.252749] (-) TimerEvent: {}
+[10.354136] (-) TimerEvent: {}
+[10.460511] (-) TimerEvent: {}
+[10.561609] (-) TimerEvent: {}
+[10.662489] (-) TimerEvent: {}
+[10.762951] (-) TimerEvent: {}
+[10.863428] (-) TimerEvent: {}
+[10.963882] (-) TimerEvent: {}
+[11.064487] (-) TimerEvent: {}
+[11.165109] (-) TimerEvent: {}
+[11.265565] (-) TimerEvent: {}
+[11.365996] (-) TimerEvent: {}
+[11.466632] (-) TimerEvent: {}
+[11.567088] (-) TimerEvent: {}
+[11.667861] (-) TimerEvent: {}
+[11.768940] (-) TimerEvent: {}
+[11.869647] (-) TimerEvent: {}
+[11.970226] (-) TimerEvent: {}
+[12.071587] (-) TimerEvent: {}
+[12.172467] (-) TimerEvent: {}
+[12.272965] (-) TimerEvent: {}
+[12.373515] (-) TimerEvent: {}
+[12.474156] (-) TimerEvent: {}
+[12.574559] (-) TimerEvent: {}
+[12.675127] (-) TimerEvent: {}
+[12.775936] (-) TimerEvent: {}
+[12.876406] (-) TimerEvent: {}
+[12.977163] (-) TimerEvent: {}
+[13.078462] (-) TimerEvent: {}
+[13.178984] (-) TimerEvent: {}
+[13.279524] (-) TimerEvent: {}
+[13.380057] (-) TimerEvent: {}
+[13.480591] (-) TimerEvent: {}
+[13.581109] (-) TimerEvent: {}
+[13.681639] (-) TimerEvent: {}
+[13.782154] (-) TimerEvent: {}
+[13.883645] (-) TimerEvent: {}
+[13.984176] (-) TimerEvent: {}
+[14.084706] (-) TimerEvent: {}
+[14.185256] (-) TimerEvent: {}
+[14.285811] (-) TimerEvent: {}
+[14.386324] (-) TimerEvent: {}
+[14.486793] (-) TimerEvent: {}
+[14.587337] (-) TimerEvent: {}
+[14.687858] (-) TimerEvent: {}
+[14.788396] (-) TimerEvent: {}
+[14.888891] (-) TimerEvent: {}
+[14.989467] (-) TimerEvent: {}
+[15.090215] (-) TimerEvent: {}
+[15.190804] (-) TimerEvent: {}
+[15.291387] (-) TimerEvent: {}
+[15.391892] (-) TimerEvent: {}
+[15.492401] (-) TimerEvent: {}
+[15.594116] (-) TimerEvent: {}
+[15.695400] (-) TimerEvent: {}
+[15.796892] (-) TimerEvent: {}
+[15.897498] (-) TimerEvent: {}
+[15.998926] (-) TimerEvent: {}
+[16.099477] (-) TimerEvent: {}
+[16.200001] (-) TimerEvent: {}
+[16.300370] (-) TimerEvent: {}
+[16.400756] (-) TimerEvent: {}
+[16.501199] (-) TimerEvent: {}
+[16.602087] (-) TimerEvent: {}
+[16.702622] (-) TimerEvent: {}
+[16.803117] (-) TimerEvent: {}
+[16.904627] (-) TimerEvent: {}
+[17.005205] (-) TimerEvent: {}
+[17.105700] (-) TimerEvent: {}
+[17.206306] (-) TimerEvent: {}
+[17.306765] (-) TimerEvent: {}
+[17.407269] (-) TimerEvent: {}
+[17.507834] (-) TimerEvent: {}
+[17.608350] (-) TimerEvent: {}
+[17.708863] (-) TimerEvent: {}
+[17.809389] (-) TimerEvent: {}
+[17.909927] (-) TimerEvent: {}
+[18.011468] (-) TimerEvent: {}
+[18.112886] (-) TimerEvent: {}
+[18.213443] (-) TimerEvent: {}
+[18.314030] (-) TimerEvent: {}
+[18.414559] (-) TimerEvent: {}
+[18.515007] (-) TimerEvent: {}
+[18.615550] (-) TimerEvent: {}
+[18.716069] (-) TimerEvent: {}
+[18.816717] (-) TimerEvent: {}
+[18.917160] (-) TimerEvent: {}
+[19.017685] (-) TimerEvent: {}
+[19.119198] (-) TimerEvent: {}
+[19.219695] (-) TimerEvent: {}
+[19.321187] (-) TimerEvent: {}
+[19.421672] (-) TimerEvent: {}
+[19.522245] (-) TimerEvent: {}
+[19.622759] (-) TimerEvent: {}
+[19.723286] (-) TimerEvent: {}
+[19.823815] (-) TimerEvent: {}
+[19.924442] (-) TimerEvent: {}
+[20.024865] (-) TimerEvent: {}
+[20.125395] (-) TimerEvent: {}
+[20.226087] (-) TimerEvent: {}
+[20.326527] (-) TimerEvent: {}
+[20.426964] (-) TimerEvent: {}
+[20.528496] (-) TimerEvent: {}
+[20.629019] (-) TimerEvent: {}
+[20.729454] (-) TimerEvent: {}
+[20.830000] (-) TimerEvent: {}
+[20.930617] (-) TimerEvent: {}
+[21.031140] (-) TimerEvent: {}
+[21.038867] (buddy_functionalities) StderrLine: {'line': b'\x1b[01m\x1b[K/home/primerobotics/BuddyArm/src/buddy_functionalities/src/random_path.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.039240] (buddy_functionalities) StderrLine: {'line': b'\x1b[01m\x1b[K/home/primerobotics/BuddyArm/src/buddy_functionalities/src/random_path.cpp:33:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use moveit::core::MoveItErrorCode [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.039454] (buddy_functionalities) StderrLine: {'line': b'   33 | (move_group->plan(my_plan) == moveit::planning_interface::MoveItErrorCode::\x1b[01;35m\x1b[KSUCCESS\x1b[m\x1b[K);\n'}
+[21.039646] (buddy_functionalities) StderrLine: {'line': b'      |                                                                            \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[21.039890] (buddy_functionalities) StderrLine: {'line': b'\n'}
+[21.040575] (buddy_functionalities) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/primerobotics/BuddyArm/src/buddy_functionalities/src/random_path.cpp:2\x1b[m\x1b[K:\n'}
+[21.040926] (buddy_functionalities) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[21.041124] (buddy_functionalities) StderrLine: {'line': b'   71 | using \x1b[01;36m\x1b[KMoveItErrorCode\x1b[m\x1b[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;\n'}
+[21.041310] (buddy_functionalities) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.127250] (buddy_functionalities) StderrLine: {'line': b'\x1b[01m\x1b[K/home/primerobotics/BuddyArm/src/buddy_functionalities/src/custom_path.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.127642] (buddy_functionalities) StderrLine: {'line': b'\x1b[01m\x1b[K/home/primerobotics/BuddyArm/src/buddy_functionalities/src/custom_path.cpp:48:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use moveit::core::MoveItErrorCode [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.127923] (buddy_functionalities) StderrLine: {'line': b'   48 |   if (success == moveit::planning_interface::MoveItErrorCode::\x1b[01;35m\x1b[KSUCCESS\x1b[m\x1b[K) {\n'}
+[21.128142] (buddy_functionalities) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[21.128337] (buddy_functionalities) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/primerobotics/BuddyArm/src/buddy_functionalities/src/custom_path.cpp:2\x1b[m\x1b[K:\n'}
+[21.128546] (buddy_functionalities) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[21.128812] (buddy_functionalities) StderrLine: {'line': b'   71 | using \x1b[01;36m\x1b[KMoveItErrorCode\x1b[m\x1b[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;\n'}
+[21.129001] (buddy_functionalities) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.134580] (-) TimerEvent: {}
+[21.236066] (-) TimerEvent: {}
+[21.336559] (-) TimerEvent: {}
+[21.437107] (-) TimerEvent: {}
+[21.537652] (-) TimerEvent: {}
+[21.638324] (-) TimerEvent: {}
+[21.739675] (-) TimerEvent: {}
+[21.840212] (-) TimerEvent: {}
+[21.940886] (-) TimerEvent: {}
+[22.041239] (-) TimerEvent: {}
+[22.141778] (-) TimerEvent: {}
+[22.242452] (-) TimerEvent: {}
+[22.343837] (-) TimerEvent: {}
+[22.444334] (-) TimerEvent: {}
+[22.544912] (-) TimerEvent: {}
+[22.645790] (-) TimerEvent: {}
+[22.746279] (-) TimerEvent: {}
+[22.848146] (-) TimerEvent: {}
+[22.948903] (-) TimerEvent: {}
+[23.049797] (-) TimerEvent: {}
+[23.150926] (-) TimerEvent: {}
+[23.251476] (-) TimerEvent: {}
+[23.352964] (-) TimerEvent: {}
+[23.453342] (-) TimerEvent: {}
+[23.554066] (-) TimerEvent: {}
+[23.654638] (-) TimerEvent: {}
+[23.755052] (-) TimerEvent: {}
+[23.855906] (-) TimerEvent: {}
+[23.957113] (-) TimerEvent: {}
+[24.057738] (-) TimerEvent: {}
+[24.158329] (-) TimerEvent: {}
+[24.259636] (-) TimerEvent: {}
+[24.360193] (-) TimerEvent: {}
+[24.460813] (-) TimerEvent: {}
+[24.561172] (-) TimerEvent: {}
+[24.661600] (-) TimerEvent: {}
+[24.762346] (-) TimerEvent: {}
+[24.862877] (-) TimerEvent: {}
+[24.963354] (-) TimerEvent: {}
+[25.063812] (-) TimerEvent: {}
+[25.164355] (-) TimerEvent: {}
+[25.264757] (-) TimerEvent: {}
+[25.365436] (-) TimerEvent: {}
+[25.467004] (-) TimerEvent: {}
+[25.567496] (-) TimerEvent: {}
+[25.667991] (-) TimerEvent: {}
+[25.768498] (-) TimerEvent: {}
+[25.870046] (-) TimerEvent: {}
+[25.971529] (-) TimerEvent: {}
+[26.072060] (-) TimerEvent: {}
+[26.172588] (-) TimerEvent: {}
+[26.273086] (-) TimerEvent: {}
+[26.373838] (-) TimerEvent: {}
+[26.475147] (-) TimerEvent: {}
+[26.575650] (-) TimerEvent: {}
+[26.676025] (-) TimerEvent: {}
+[26.776784] (-) TimerEvent: {}
+[26.877241] (-) TimerEvent: {}
+[26.977745] (-) TimerEvent: {}
+[27.054550] (buddy_functionalities) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable random_path\x1b[0m\n'}
+[27.077921] (-) TimerEvent: {}
+[27.178855] (-) TimerEvent: {}
+[27.279658] (-) TimerEvent: {}
+[27.380317] (-) TimerEvent: {}
+[27.480646] (-) TimerEvent: {}
+[27.581478] (-) TimerEvent: {}
+[27.682187] (-) TimerEvent: {}
+[27.782931] (-) TimerEvent: {}
+[27.883421] (-) TimerEvent: {}
+[27.983906] (-) TimerEvent: {}
+[28.084567] (-) TimerEvent: {}
+[28.185468] (-) TimerEvent: {}
+[28.285842] (-) TimerEvent: {}
+[28.386693] (-) TimerEvent: {}
+[28.487177] (-) TimerEvent: {}
+[28.587541] (-) TimerEvent: {}
+[28.604803] (buddy_functionalities) StdoutLine: {'line': b'[ 75%] Built target random_path\n'}
+[28.687731] (-) TimerEvent: {}
+[28.788083] (-) TimerEvent: {}
+[28.888546] (-) TimerEvent: {}
+[28.989087] (-) TimerEvent: {}
+[29.089876] (-) TimerEvent: {}
+[29.190432] (-) TimerEvent: {}
+[29.292040] (-) TimerEvent: {}
+[29.326835] (buddy_functionalities) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable custom_path\x1b[0m\n'}
+[29.392681] (-) TimerEvent: {}
+[29.493263] (-) TimerEvent: {}
+[29.593768] (-) TimerEvent: {}
+[29.695312] (-) TimerEvent: {}
+[29.795961] (-) TimerEvent: {}
+[29.897026] (-) TimerEvent: {}
+[29.998813] (-) TimerEvent: {}
+[30.099378] (-) TimerEvent: {}
+[30.199843] (-) TimerEvent: {}
+[30.230771] (buddy_functionalities) StdoutLine: {'line': b'[100%] Built target custom_path\n'}
+[30.246887] (buddy_functionalities) CommandEnded: {'returncode': 0}
+[30.288346] (buddy_functionalities) JobProgress: {'identifier': 'buddy_functionalities', 'progress': 'install'}
+[30.288722] (buddy_functionalities) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/primerobotics/BuddyArm/build/buddy_functionalities'], 'cwd': '/home/primerobotics/BuddyArm/build/buddy_functionalities', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'primerobotics'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/primerobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'primerobotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'primerobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/primerobotics:@/tmp/.ICE-unix/937,unix/primerobotics:/tmp/.ICE-unix/937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ad29ebf_3d02_4aa0_b963_85ea92c4b2bc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D4UDP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.290'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/primerobotics/BuddyArm/build/buddy_functionalities'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[30.298577] (buddy_functionalities) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.299642] (buddy_functionalities) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[30.301578] (-) TimerEvent: {}
+[30.301993] (buddy_functionalities) StdoutLine: {'line': b'-- Symlinking: /home/primerobotics/BuddyArm/install/buddy_functionalities/lib/buddy_functionalities/random_path\n'}
+[30.312283] (buddy_functionalities) StdoutLine: {'line': b'-- Symlinking: /home/primerobotics/BuddyArm/install/buddy_functionalities/lib/buddy_functionalities/custom_path\n'}
+[30.325916] (buddy_functionalities) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_functionalities/share/ament_index/resource_index/package_run_dependencies/buddy_functionalities\n'}
+[30.327944] (buddy_functionalities) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_functionalities/share/ament_index/resource_index/parent_prefix_path/buddy_functionalities\n'}
+[30.328247] (buddy_functionalities) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/environment/ament_prefix_path.sh\n'}
+[30.328643] (buddy_functionalities) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/environment/ament_prefix_path.dsv\n'}
+[30.328833] (buddy_functionalities) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/environment/path.sh\n'}
+[30.329138] (buddy_functionalities) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/environment/path.dsv\n'}
+[30.329616] (buddy_functionalities) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/local_setup.bash\n'}
+[30.330529] (buddy_functionalities) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/local_setup.sh\n'}
+[30.330942] (buddy_functionalities) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/local_setup.zsh\n'}
+[30.331353] (buddy_functionalities) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/local_setup.dsv\n'}
+[30.331725] (buddy_functionalities) StdoutLine: {'line': b'-- Symlinking: /home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/package.dsv\n'}
+[30.346400] (buddy_functionalities) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_functionalities/share/ament_index/resource_index/packages/buddy_functionalities\n'}
+[30.346870] (buddy_functionalities) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/cmake/buddy_functionalitiesConfig.cmake\n'}
+[30.347247] (buddy_functionalities) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/cmake/buddy_functionalitiesConfig-version.cmake\n'}
+[30.347680] (buddy_functionalities) StdoutLine: {'line': b'-- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_functionalities/share/buddy_functionalities/package.xml\n'}
+[30.353226] (buddy_functionalities) CommandEnded: {'returncode': 0}
+[30.402208] (-) TimerEvent: {}
+[30.420643] (buddy_functionalities) JobEnded: {'identifier': 'buddy_functionalities', 'rc': 0}
+[30.422238] (-) EventReactorShutdown: {}

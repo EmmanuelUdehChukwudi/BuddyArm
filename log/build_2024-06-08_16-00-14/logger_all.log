@@ -1,0 +1,398 @@
+[0.222s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.223s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x72d4d8150040>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72d4d8117bb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72d4d8117bb0>>)
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.605s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.605s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.605s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.606s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.606s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.607s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/primerobotics/BuddyArm'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'ignore'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'ignore_ament_install'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extensions ['colcon_pkg']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'colcon_pkg'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extensions ['colcon_meta']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'colcon_meta'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extensions ['ros']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'ros'
+[0.646s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_controller' with type 'ros.ament_cmake' and name 'arm_controller'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_bringup) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_bringup) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_bringup) by extensions ['colcon_pkg']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_bringup) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_bringup) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_bringup) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_bringup) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_bringup) by extension 'ros'
+[0.649s] DEBUG:colcon.colcon_core.package_identification:Package 'src/buddy_arm_bringup' with type 'ros.ament_cmake' and name 'buddy_arm_bringup'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_description) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_description) by extension 'ignore_ament_install'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_description) by extensions ['colcon_pkg']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_description) by extension 'colcon_pkg'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_description) by extensions ['colcon_meta']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_description) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_description) by extensions ['ros']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_description) by extension 'ros'
+[0.652s] DEBUG:colcon.colcon_core.package_identification:Package 'src/buddy_arm_description' with type 'ros.ament_cmake' and name 'buddy_arm_description'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_moveit) by extension 'ignore'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_moveit) by extension 'ignore_ament_install'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_moveit) by extensions ['colcon_pkg']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_moveit) by extension 'colcon_pkg'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_moveit) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_moveit) by extension 'colcon_meta'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_moveit) by extensions ['ros']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_arm_moveit) by extension 'ros'
+[0.654s] DEBUG:colcon.colcon_core.package_identification:Package 'src/buddy_arm_moveit' with type 'ros.ament_cmake' and name 'buddy_arm_moveit'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_firmware) by extension 'ignore'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_firmware) by extension 'ignore_ament_install'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_firmware) by extensions ['colcon_pkg']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_firmware) by extension 'colcon_pkg'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_firmware) by extensions ['colcon_meta']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_firmware) by extension 'colcon_meta'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_firmware) by extensions ['ros']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/buddy_firmware) by extension 'ros'
+[0.656s] DEBUG:colcon.colcon_core.package_identification:Package 'src/buddy_firmware' with type 'ros.ament_cmake' and name 'buddy_firmware'
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.696s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.696s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.702s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 341 installed packages in /opt/ros/humble
+[0.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_args' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_target' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.853s] DEBUG:colcon.colcon_core.verb:Building package 'arm_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/primerobotics/BuddyArm/build/arm_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/primerobotics/BuddyArm/install/arm_controller', 'merge_install': False, 'path': '/home/primerobotics/BuddyArm/src/arm_controller', 'symlink_install': True, 'test_result_base': None}
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_bringup' build argument 'cmake_args' from command line to 'None'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_bringup' build argument 'cmake_target' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.857s] DEBUG:colcon.colcon_core.verb:Building package 'buddy_arm_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/primerobotics/BuddyArm/build/buddy_arm_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/primerobotics/BuddyArm/install/buddy_arm_bringup', 'merge_install': False, 'path': '/home/primerobotics/BuddyArm/src/buddy_arm_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_description' build argument 'cmake_args' from command line to 'None'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_description' build argument 'cmake_target' from command line to 'None'
+[0.859s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.862s] DEBUG:colcon.colcon_core.verb:Building package 'buddy_arm_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/primerobotics/BuddyArm/build/buddy_arm_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/primerobotics/BuddyArm/install/buddy_arm_description', 'merge_install': False, 'path': '/home/primerobotics/BuddyArm/src/buddy_arm_description', 'symlink_install': True, 'test_result_base': None}
+[0.863s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_moveit' build argument 'cmake_args' from command line to 'None'
+[0.863s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_moveit' build argument 'cmake_target' from command line to 'None'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'buddy_arm_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.865s] DEBUG:colcon.colcon_core.verb:Building package 'buddy_arm_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/primerobotics/BuddyArm/build/buddy_arm_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/primerobotics/BuddyArm/install/buddy_arm_moveit', 'merge_install': False, 'path': '/home/primerobotics/BuddyArm/src/buddy_arm_moveit', 'symlink_install': True, 'test_result_base': None}
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'buddy_firmware' build argument 'cmake_args' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'buddy_firmware' build argument 'cmake_target' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'buddy_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'buddy_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'buddy_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'buddy_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'buddy_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'buddy_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'buddy_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.866s] DEBUG:colcon.colcon_core.verb:Building package 'buddy_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/primerobotics/BuddyArm/build/buddy_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/primerobotics/BuddyArm/install/buddy_firmware', 'merge_install': False, 'path': '/home/primerobotics/BuddyArm/src/buddy_firmware', 'symlink_install': True, 'test_result_base': None}
+[0.866s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.869s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.869s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/primerobotics/BuddyArm/src/arm_controller' with build type 'ament_cmake'
+[0.869s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/primerobotics/BuddyArm/src/arm_controller'
+[0.874s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.875s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.886s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/primerobotics/BuddyArm/src/buddy_arm_bringup' with build type 'ament_cmake'
+[0.886s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/primerobotics/BuddyArm/src/buddy_arm_bringup'
+[0.887s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.887s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.894s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/primerobotics/BuddyArm/src/buddy_arm_description' with build type 'ament_cmake'
+[0.895s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/primerobotics/BuddyArm/src/buddy_arm_description'
+[0.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.895s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/primerobotics/BuddyArm/build/arm_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/arm_controller -- -j3 -l3
+[0.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/primerobotics/BuddyArm/build/buddy_arm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_arm_bringup -- -j3 -l3
+[0.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/primerobotics/BuddyArm/build/buddy_arm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_arm_description -- -j3 -l3
+[1.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/primerobotics/BuddyArm/build/buddy_arm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_arm_bringup -- -j3 -l3
+[1.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/primerobotics/BuddyArm/build/buddy_arm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_arm_bringup
+[1.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/primerobotics/BuddyArm/build/buddy_arm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_arm_description -- -j3 -l3
+[1.192s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(buddy_arm_bringup)
+[1.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/primerobotics/BuddyArm/build/buddy_arm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_arm_bringup
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_bringup' for CMake module files
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_bringup' for CMake config files
+[1.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('buddy_arm_bringup', 'cmake_prefix_path')
+[1.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/hook/cmake_prefix_path.ps1'
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/hook/cmake_prefix_path.dsv'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/hook/cmake_prefix_path.sh'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/bin'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/lib/pkgconfig/buddy_arm_bringup.pc'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/lib/python3.10/site-packages'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/bin'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/package.ps1'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/package.dsv'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/package.sh'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/package.bash'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/package.zsh'
+[1.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/colcon-core/packages/buddy_arm_bringup)
+[1.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/primerobotics/BuddyArm/build/buddy_arm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_arm_description
+[1.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(buddy_arm_bringup)
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_bringup' for CMake module files
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_bringup' for CMake config files
+[1.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('buddy_arm_bringup', 'cmake_prefix_path')
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/hook/cmake_prefix_path.ps1'
+[1.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/hook/cmake_prefix_path.dsv'
+[1.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/hook/cmake_prefix_path.sh'
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/bin'
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/lib/pkgconfig/buddy_arm_bringup.pc'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/lib/python3.10/site-packages'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/bin'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/package.ps1'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/package.dsv'
+[1.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/package.sh'
+[1.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/package.bash'
+[1.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/buddy_arm_bringup/package.zsh'
+[1.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/primerobotics/BuddyArm/install/buddy_arm_bringup/share/colcon-core/packages/buddy_arm_bringup)
+[1.354s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/primerobotics/BuddyArm/src/buddy_arm_moveit' with build type 'ament_cmake'
+[1.355s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/primerobotics/BuddyArm/src/buddy_arm_moveit'
+[1.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(buddy_arm_description)
+[1.369s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_description' for CMake module files
+[1.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/primerobotics/BuddyArm/build/buddy_arm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_arm_description
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_description' for CMake config files
+[1.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('buddy_arm_description', 'cmake_prefix_path')
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/hook/cmake_prefix_path.ps1'
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/hook/cmake_prefix_path.dsv'
+[1.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/hook/cmake_prefix_path.sh'
+[1.383s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_description/bin'
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_description/lib/pkgconfig/buddy_arm_description.pc'
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_description/lib/python3.10/site-packages'
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_description/bin'
+[1.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/package.ps1'
+[1.388s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/package.dsv'
+[1.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/package.sh'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/package.bash'
+[1.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/package.zsh'
+[1.405s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/primerobotics/BuddyArm/install/buddy_arm_description/share/colcon-core/packages/buddy_arm_description)
+[1.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/primerobotics/BuddyArm/build/buddy_arm_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_arm_moveit -- -j3 -l3
+[1.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(buddy_arm_description)
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_description' for CMake module files
+[1.482s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_description' for CMake config files
+[1.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('buddy_arm_description', 'cmake_prefix_path')
+[1.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/hook/cmake_prefix_path.ps1'
+[1.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/hook/cmake_prefix_path.dsv'
+[1.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/hook/cmake_prefix_path.sh'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_description/bin'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_description/lib/pkgconfig/buddy_arm_description.pc'
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_description/lib/python3.10/site-packages'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_description/bin'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/package.ps1'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/package.dsv'
+[1.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/package.sh'
+[1.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/package.bash'
+[1.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/package.zsh'
+[1.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/primerobotics/BuddyArm/install/buddy_arm_description/share/colcon-core/packages/buddy_arm_description)
+[1.499s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/primerobotics/BuddyArm/src/buddy_firmware' with build type 'ament_cmake'
+[1.499s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/primerobotics/BuddyArm/src/buddy_firmware'
+[1.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/primerobotics/BuddyArm/build/buddy_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/primerobotics/BuddyArm/src/buddy_firmware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/primerobotics/BuddyArm/install/buddy_firmware
+[1.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/primerobotics/BuddyArm/build/buddy_arm_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_arm_moveit -- -j3 -l3
+[1.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/primerobotics/BuddyArm/build/buddy_arm_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_arm_moveit
+[1.803s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(buddy_arm_moveit)
+[1.804s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_moveit' for CMake module files
+[1.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/primerobotics/BuddyArm/build/buddy_arm_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_arm_moveit
+[1.808s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_moveit' for CMake config files
+[1.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('buddy_arm_moveit', 'cmake_prefix_path')
+[1.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/hook/cmake_prefix_path.ps1'
+[1.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/hook/cmake_prefix_path.dsv'
+[1.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/hook/cmake_prefix_path.sh'
+[1.821s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/bin'
+[1.821s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/lib/pkgconfig/buddy_arm_moveit.pc'
+[1.821s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/lib/python3.10/site-packages'
+[1.822s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/bin'
+[1.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/package.ps1'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/package.dsv'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/package.sh'
+[1.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/package.bash'
+[1.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/package.zsh'
+[1.843s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/colcon-core/packages/buddy_arm_moveit)
+[1.923s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(buddy_arm_moveit)
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_moveit' for CMake module files
+[1.929s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_moveit' for CMake config files
+[1.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('buddy_arm_moveit', 'cmake_prefix_path')
+[1.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/hook/cmake_prefix_path.ps1'
+[1.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/hook/cmake_prefix_path.dsv'
+[1.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/hook/cmake_prefix_path.sh'
+[1.939s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/bin'
+[1.939s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/lib/pkgconfig/buddy_arm_moveit.pc'
+[1.940s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/lib/python3.10/site-packages'
+[1.940s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/bin'
+[1.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/package.ps1'
+[1.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/package.dsv'
+[1.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/package.sh'
+[1.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/package.bash'
+[1.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/buddy_arm_moveit/package.zsh'
+[1.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/primerobotics/BuddyArm/install/buddy_arm_moveit/share/colcon-core/packages/buddy_arm_moveit)
+[2.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/primerobotics/BuddyArm/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/arm_controller -- -j3 -l3
+[2.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/primerobotics/BuddyArm/build/arm_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/arm_controller
+[2.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_controller)
+[2.548s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/arm_controller' for CMake module files
+[2.549s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/arm_controller' for CMake config files
+[2.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_controller', 'cmake_prefix_path')
+[2.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/hook/cmake_prefix_path.ps1'
+[2.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/hook/cmake_prefix_path.dsv'
+[2.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/hook/cmake_prefix_path.sh'
+[2.554s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/arm_controller/lib'
+[2.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/primerobotics/BuddyArm/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/arm_controller
+[2.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_controller', 'ld_library_path_lib')
+[2.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/hook/ld_library_path_lib.ps1'
+[2.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/hook/ld_library_path_lib.dsv'
+[2.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/hook/ld_library_path_lib.sh'
+[2.558s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/arm_controller/bin'
+[2.559s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/arm_controller/lib/pkgconfig/arm_controller.pc'
+[2.559s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/arm_controller/lib/python3.10/site-packages'
+[2.560s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/arm_controller/bin'
+[2.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/package.ps1'
+[2.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/package.dsv'
+[2.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/package.sh'
+[2.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/package.bash'
+[2.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/package.zsh'
+[2.566s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/primerobotics/BuddyArm/install/arm_controller/share/colcon-core/packages/arm_controller)
+[2.640s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_controller)
+[2.641s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/arm_controller' for CMake module files
+[2.643s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/arm_controller' for CMake config files
+[2.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_controller', 'cmake_prefix_path')
+[2.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/hook/cmake_prefix_path.ps1'
+[2.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/hook/cmake_prefix_path.dsv'
+[2.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/hook/cmake_prefix_path.sh'
+[2.654s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/arm_controller/lib'
+[2.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_controller', 'ld_library_path_lib')
+[2.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/hook/ld_library_path_lib.ps1'
+[2.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/hook/ld_library_path_lib.dsv'
+[2.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/hook/ld_library_path_lib.sh'
+[2.665s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/arm_controller/bin'
+[2.665s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/arm_controller/lib/pkgconfig/arm_controller.pc'
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/arm_controller/lib/python3.10/site-packages'
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/arm_controller/bin'
+[2.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/package.ps1'
+[2.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/package.dsv'
+[2.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/package.sh'
+[2.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/package.bash'
+[2.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/arm_controller/share/arm_controller/package.zsh'
+[2.700s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/primerobotics/BuddyArm/install/arm_controller/share/colcon-core/packages/arm_controller)
+[3.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/primerobotics/BuddyArm/build/buddy_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/primerobotics/BuddyArm/src/buddy_firmware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/primerobotics/BuddyArm/install/buddy_firmware
+[3.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/primerobotics/BuddyArm/build/buddy_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_firmware -- -j3 -l3
+[3.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/primerobotics/BuddyArm/build/buddy_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_firmware -- -j3 -l3
+[3.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/primerobotics/BuddyArm/build/buddy_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_firmware
+[3.867s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(buddy_firmware)
+[3.868s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_firmware' for CMake module files
+[3.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/primerobotics/BuddyArm/build/buddy_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_firmware
+[3.872s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_firmware' for CMake config files
+[3.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('buddy_firmware', 'cmake_prefix_path')
+[3.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/hook/cmake_prefix_path.ps1'
+[3.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/hook/cmake_prefix_path.dsv'
+[3.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/hook/cmake_prefix_path.sh'
+[3.877s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_firmware/bin'
+[3.877s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_firmware/lib/pkgconfig/buddy_firmware.pc'
+[3.878s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_firmware/lib/python3.10/site-packages'
+[3.878s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_firmware/bin'
+[3.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/package.ps1'
+[3.880s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/package.dsv'
+[3.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/package.sh'
+[3.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/package.bash'
+[3.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/package.zsh'
+[3.884s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/primerobotics/BuddyArm/install/buddy_firmware/share/colcon-core/packages/buddy_firmware)
+[3.933s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(buddy_firmware)
+[3.937s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_firmware' for CMake module files
+[3.938s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_firmware' for CMake config files
+[3.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('buddy_firmware', 'cmake_prefix_path')
+[3.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/hook/cmake_prefix_path.ps1'
+[3.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/hook/cmake_prefix_path.dsv'
+[3.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/hook/cmake_prefix_path.sh'
+[3.946s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_firmware/bin'
+[3.947s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_firmware/lib/pkgconfig/buddy_firmware.pc'
+[3.952s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_firmware/lib/python3.10/site-packages'
+[3.953s] Level 1:colcon.colcon_core.environment:checking '/home/primerobotics/BuddyArm/install/buddy_firmware/bin'
+[3.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/package.ps1'
+[3.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/package.dsv'
+[3.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/package.sh'
+[3.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/package.bash'
+[3.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/primerobotics/BuddyArm/install/buddy_firmware/share/buddy_firmware/package.zsh'
+[3.967s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/primerobotics/BuddyArm/install/buddy_firmware/share/colcon-core/packages/buddy_firmware)
+[3.970s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.971s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.971s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.971s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.981s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.982s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.982s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.012s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.013s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/primerobotics/BuddyArm/install/local_setup.ps1'
+[4.016s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/primerobotics/BuddyArm/install/_local_setup_util_ps1.py'
+[4.027s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/primerobotics/BuddyArm/install/setup.ps1'
+[4.029s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/primerobotics/BuddyArm/install/local_setup.sh'
+[4.031s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/primerobotics/BuddyArm/install/_local_setup_util_sh.py'
+[4.033s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/primerobotics/BuddyArm/install/setup.sh'
+[4.041s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/primerobotics/BuddyArm/install/local_setup.bash'
+[4.042s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/primerobotics/BuddyArm/install/setup.bash'
+[4.045s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/primerobotics/BuddyArm/install/local_setup.zsh'
+[4.047s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/primerobotics/BuddyArm/install/setup.zsh'
