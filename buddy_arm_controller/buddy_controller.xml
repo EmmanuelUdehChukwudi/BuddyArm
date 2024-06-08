@@ -1,9 +1,0 @@
-<library path="buddy_arm_controller">
-    <class name="buddy_arm_controller/BuddyArmInterface"
-           type="buddy_arm_controller::BuddyArmInterface"
-           base_class_type="hardware_interface::SystemInterface">
-    <description>
-        Buddy Arm Interface
-    </description>
-    </class>
-</library>

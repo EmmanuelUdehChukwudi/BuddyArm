@@ -1,0 +1,1 @@
+/home/primerobotics/BuddyArm/build/arm_controller/ament_cmake_core/arm_controllerConfig-version.cmake
