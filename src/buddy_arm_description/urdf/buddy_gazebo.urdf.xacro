@@ -25,9 +25,9 @@
     <gazebo reference="link6">
         <material>Gazebo/Black</material>
     </gazebo>
-    <gazebo reference="link7">
+    <!-- <gazebo reference="link7">
         <material>Gazebo/Black</material>
-    </gazebo>
+    </gazebo> -->
 
     
     <gazebo>

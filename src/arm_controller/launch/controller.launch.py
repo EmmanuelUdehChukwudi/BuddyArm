@@ -22,7 +22,7 @@ def generate_launch_description():
             [
                 "xacro ",
                 os.path.join(
-                    get_package_share_directory("robotarm"),
+                    get_package_share_directory("buddy_arm_description"),
                     "urdf",
                     "main.urdf.xacro",
                 ),
@@ -69,6 +69,12 @@ def generate_launch_description():
         executable="spawner",
         arguments=["arm_controller", "--controller-manager", "/controller_manager"],
     )
+    
+    gripper_controller_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["gripper_controller", "--controller-manager", "/controller_manager"],
+    )
 
     return LaunchDescription(
         [
@@ -77,5 +83,6 @@ def generate_launch_description():
             controller_manager,
             joint_state_broadcaster_spawner,
             arm_controller_spawner,
+            gripper_controller_spawner
         ]
     )
