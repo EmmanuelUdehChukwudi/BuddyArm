@@ -12,7 +12,7 @@
             <param name="multiplier">-1</param>
             <command_interface name="position"/>
             <state_interface name="position"/>
-            <limit lower="${-PI/2}" upper="0" effort="1000" velocity="10"/>
+            <limit lower="${-PI/4}" upper="0" effort="1000" velocity="10"/>
         </joint>
 
         </xacro:if>
@@ -51,7 +51,7 @@
         <joint name="joint_5">
             <command_interface name="position"/>
             <state_interface name="position"/>
-            <limit lower="0" upper="${PI/2}" effort="1000" velocity="10"/>
+            <limit lower="0" upper="${PI/4}" effort="1000" velocity="10"/>
         </joint>
         
 

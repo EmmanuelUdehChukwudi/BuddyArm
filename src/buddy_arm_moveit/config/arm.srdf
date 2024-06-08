@@ -23,16 +23,16 @@
         <joint name="joint_4" value="0"/>
     </group_state>
     <group_state name="vertical" group="arm">
-        <joint name="joint_1" value="1.5626"/>
-        <joint name="joint_2" value="1.5799"/>
-        <joint name="joint_3" value="1.5799"/>
+        <joint name="joint_1" value="1.57"/>
+        <joint name="joint_2" value="1.57"/>
+        <joint name="joint_3" value="1.57"/>
         <joint name="joint_4" value="0"/>
     </group_state>
     <group_state name="close" group="hand">
         <joint name="joint_5" value="0"/>
     </group_state>
     <group_state name="open" group="hand">
-        <joint name="joint_5" value="1.5712"/>
+        <joint name="joint_5" value="0.785"/>
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="end_effector" parent_link="gripper_support" group="hand"/>

@@ -88,9 +88,9 @@ std::vector<hardware_interface::CommandInterface> RobotArmInterface::export_comm
 CallbackReturn RobotArmInterface::on_activate(const rclcpp_lifecycle::State &previous_state)
 {
   RCLCPP_INFO(rclcpp::get_logger("ArmInterface"),"Initializing the Robot Hardware.......");
-        position_commands_ = {0.0,0.0,0.0,0.0,0.0,0.0};
-        prev_position_commands_ = {0.0,0.0,0.0,0.0,0.0,0.0};
-        position_states_ = {0.0,0.0,0.0,0.0,0.0,0.0};
+        position_commands_ = {0.0,0.0,0.0,0.0,0.0};
+        prev_position_commands_ = {0.0,0.0,0.0,0.0,0.0};
+        position_states_ = {0.0,0.0,0.0,0.0,0.0};
   try
   {
     arduino_.Open(port_);
@@ -169,12 +169,13 @@ hardware_interface::return_type RobotArmInterface::write(const rclcpp::Time &tim
         msg.append(std::to_string(wrist));
         msg.append(",");
 
-        int wrist_twist = static_cast<int>((position_commands_.at(4))* 180) / M_PI;
-        msg.append("t");
-        msg.append(std::to_string(wrist_twist));
-        msg.append(",");
+        // int wrist_twist = static_cast<int>((position_commands_.at(4))* 180) / M_PI;
+        // msg.append("t");
+        // msg.append(std::to_string(wrist_twist));
+        // msg.append(",");
 
-        int tool_tip = static_cast<int>((position_commands_.at(5))* 180) / M_PI;
+        int tool_tip = static_cast<int>((position_commands_.at(4))* 180) / M_PI;
+        tool_tip = 45 - tool_tip;
         msg.append("g");
         msg.append(std::to_string(tool_tip));
         msg.append(",");

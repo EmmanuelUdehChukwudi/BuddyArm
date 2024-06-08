@@ -1,0 +1,30 @@
+[0.045s] Invoking command in '/home/primerobotics/BuddyArm/build/buddy_arm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_arm_description -- -j3 -l3
+[0.130s] Invoked command in '/home/primerobotics/BuddyArm/build/buddy_arm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_arm_description -- -j3 -l3
+[0.233s] Invoking command in '/home/primerobotics/BuddyArm/build/buddy_arm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_arm_description
+[0.255s] -- Install configuration: ""
+[0.255s] -- Execute custom install script
+[0.256s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/launch/display.launch.xml
+[0.257s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/launch/gazebo.launch.py
+[0.259s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/urdf/buddy_core.urdf.xacro
+[0.261s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/urdf/buddy_gazebo.urdf.xacro
+[0.262s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/urdf/buddy_inertia.urdf.xacro
+[0.263s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/urdf/buddy_ros2_control.urdf.xacro
+[0.264s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/urdf/main.urdf.xacro
+[0.265s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/meshes/left_finger.STL
+[0.266s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/meshes/right_finger.STL
+[0.267s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/ament_index/resource_index/package_run_dependencies/buddy_arm_description
+[0.269s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/ament_index/resource_index/parent_prefix_path/buddy_arm_description
+[0.270s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/environment/ament_prefix_path.sh
+[0.272s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/environment/ament_prefix_path.dsv
+[0.274s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/environment/path.sh
+[0.275s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/environment/path.dsv
+[0.276s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/local_setup.bash
+[0.278s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/local_setup.sh
+[0.280s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/local_setup.zsh
+[0.281s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/local_setup.dsv
+[0.282s] -- Symlinking: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/package.dsv
+[0.297s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/ament_index/resource_index/packages/buddy_arm_description
+[0.301s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/cmake/buddy_arm_descriptionConfig.cmake
+[0.305s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/cmake/buddy_arm_descriptionConfig-version.cmake
+[0.311s] -- Up-to-date symlink: /home/primerobotics/BuddyArm/install/buddy_arm_description/share/buddy_arm_description/package.xml
+[0.316s] Invoked command in '/home/primerobotics/BuddyArm/build/buddy_arm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_arm_description
