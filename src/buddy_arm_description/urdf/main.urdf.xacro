@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arm">
-    <xacro:arg name="is_sim" default="true"/>
-    <xacro:include filename="buddy_inertia.urdf.xacro"/>
-    <xacro:include filename="buddy_core.urdf.xacro"/>
-    <xacro:include filename="buddy_gazebo.urdf.xacro"/>
-    <xacro:include filename="buddy_ros2_control.urdf.xacro"/>
-</robot>
