@@ -1,6 +1,0 @@
-Invoking command in '/home/primerobotics/BuddyArm/build/buddy_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/primerobotics/BuddyArm/src/buddy_firmware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/primerobotics/BuddyArm/install/buddy_firmware
-Invoked command in '/home/primerobotics/BuddyArm/build/buddy_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/primerobotics/BuddyArm/src/buddy_firmware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/primerobotics/BuddyArm/install/buddy_firmware
-Invoking command in '/home/primerobotics/BuddyArm/build/buddy_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_firmware -- -j3 -l3
-Invoked command in '/home/primerobotics/BuddyArm/build/buddy_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_firmware -- -j3 -l3
-Invoking command in '/home/primerobotics/BuddyArm/build/buddy_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_firmware
-Invoked command in '/home/primerobotics/BuddyArm/build/buddy_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_firmware
