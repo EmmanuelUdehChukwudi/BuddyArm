@@ -1,0 +1,4 @@
+Invoking command in '/home/primerobotics/BuddyArm/build/buddy_arm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_arm_bringup -- -j2 -l2
+Invoked command in '/home/primerobotics/BuddyArm/build/buddy_arm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/primerobotics/BuddyArm/build/buddy_arm_bringup -- -j2 -l2
+Invoking command in '/home/primerobotics/BuddyArm/build/buddy_arm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_arm_bringup
+Invoked command in '/home/primerobotics/BuddyArm/build/buddy_arm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/primerobotics/BuddyArm/build/buddy_arm_bringup

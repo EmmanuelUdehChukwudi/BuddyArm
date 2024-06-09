@@ -175,7 +175,7 @@ hardware_interface::return_type RobotArmInterface::write(const rclcpp::Time &tim
         // msg.append(",");
 
         int tool_tip = static_cast<int>((position_commands_.at(4))* 180) / M_PI;
-        tool_tip = 45 - tool_tip;
+        tool_tip = 35 - tool_tip;
         msg.append("g");
         msg.append(std::to_string(tool_tip));
         msg.append(",");

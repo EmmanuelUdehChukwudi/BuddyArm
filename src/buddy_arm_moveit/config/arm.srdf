@@ -32,7 +32,7 @@
         <joint name="joint_5" value="0"/>
     </group_state>
     <group_state name="open" group="hand">
-        <joint name="joint_5" value="0.785"/>
+        <joint name="joint_5" value="0.61"/>
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="end_effector" parent_link="gripper_support" group="hand"/>
